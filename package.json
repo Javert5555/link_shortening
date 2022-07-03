@@ -1,0 +1,33 @@
+{
+  "name": "link_shortening",
+  "version": "1.0.0",
+  "description": "Mern Stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javert5555/link_shortening.git"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "expressjs",
+    "react",
+    "nodejs"
+  ],
+  "author": "Javer Hugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Javert5555/link_shortening/issues"
+  },
+  "homepage": "https://github.com/Javert5555/link_shortening#readme",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2",
+    "nodemon": "^2.0.18"
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react"
-import 'materialize-css'
+import "materialize-css"
 import { BrowserRouter as Router } from "react-router-dom";
 import { useRoutes } from "./routes";
 

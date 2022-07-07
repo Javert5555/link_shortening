@@ -1,5 +1,6 @@
 {
     "port": 5000,
     "jwtSecret": "notSecretMern",
-    "mongoUri": "mongodb://localhost/links_shorting"
+    "mongoUri": "mongodb://localhost/links_shorting",
+    "baseUrl": "http://localhost:5000"
 }

@@ -3,7 +3,7 @@ const config = require('config')
 const shortid = require('shortid')
 const Link = require('../models/Link')
 const auth = require('../middleware/auth.middleware')
-const router = new Router()
+const router = Router()
 
 router.post('/generate', auth, async (req, res) => {
     try {

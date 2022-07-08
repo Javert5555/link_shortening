@@ -1,6 +1,6 @@
 const { Router } = require('express')
 const Link = require('../models/Link')
-const router = new Router()
+const router = Router()
 
 router.get('/:code', async (req, res) => {
     try {
@@ -10,7 +10,7 @@ router.get('/:code', async (req, res) => {
         if (link) {
             link.clicks++
             await link.save()
-            res.redirect(link.from)
+            return res.redirect(link.from)
         }
 
         res.status(404).json('Ссылка не найдена')

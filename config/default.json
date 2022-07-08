@@ -1,6 +1,7 @@
 {
     "port": 5000,
     "jwtSecret": "notSecretMern",
-    "mongoUri": "mongodb://localhost/links_shorting",
+    "devMongoUri": "mongodb://localhost/links_shorting",
+    "prodMongoUri": "mongodb://vps-admin_super_root:eJ9g0xs31gcaG4%3C%5DQT0b@2.56.91.90:8877/?authMechanism=DEFAULT",
     "baseUrl": "http://localhost:5000"
 }
